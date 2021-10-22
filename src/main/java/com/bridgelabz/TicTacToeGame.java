@@ -106,7 +106,7 @@ public class TicTacToeGame {
 
         computerLogic();
 
-        if (logic1Counter==0 && logic2Counter==0) {
+        if (logic1Counter==0 && logic2Counter==0 && logic3Counter==0) {
             Random random = new Random();
             int index = random.nextInt(9) + 1;
             if (board[index] == ' ') {
@@ -121,19 +121,19 @@ public class TicTacToeGame {
         logic1Counter=0;
         if (logic1Counter==0) {
             logic1(1, 2, 3);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(4, 5, 6);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(7, 8, 9);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(1, 4, 7);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(2, 5, 8);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(3, 6, 9);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(1, 5, 9);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(3, 5, 7);
         }
 
@@ -141,19 +141,19 @@ public class TicTacToeGame {
             logic2Counter = 0;
             if (logic2Counter == 0) {
                 logic2(1, 2, 3);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(4, 5, 6);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(7, 8, 9);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(1, 4, 7);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(2, 5, 8);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(3, 6, 9);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(1, 5, 9);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(3, 5, 7);
             }
         }
@@ -162,9 +162,9 @@ public class TicTacToeGame {
             logic3(1);
             if (logic3Counter == 0) {
                 logic3(3);
-            } else if (logic3Counter == 0) {
+            }if (logic3Counter == 0) {
                 logic3(7);
-            } else if (logic3Counter == 0) {
+            }if (logic3Counter == 0) {
                 logic3(9);
             }
         }
