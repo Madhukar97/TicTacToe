@@ -13,6 +13,7 @@ public class TicTacToeGame {
     static int turn;
     static int logic1Counter;
     static int logic2Counter;
+    static int logic3Counter;
     static int emptySlots=9;
     static int winCount;
 
@@ -156,6 +157,17 @@ public class TicTacToeGame {
                 logic2(3, 5, 7);
             }
         }
+        if (logic1Counter==0 && logic2Counter==0) {
+            logic3Counter = 0;
+            logic3(1);
+            if (logic3Counter == 0) {
+                logic3(3);
+            } else if (logic3Counter == 0) {
+                logic3(7);
+            } else if (logic3Counter == 0) {
+                logic3(9);
+            }
+        }
     }
     //Method for logic1 in UC8
     public static void logic1(int x,int y, int z){
@@ -185,6 +197,13 @@ public class TicTacToeGame {
                 board[x]=computerPlayer;
                 logic2Counter++;
             }
+        }
+    }
+    //Method for logic3 in UC10 and UC11
+    public static void logic3(int x){
+        if (board[x]==' '){
+            board[x]=computerPlayer;
+            logic3Counter++;
         }
     }
     //Method for checking if any player has won so far.
