@@ -120,19 +120,19 @@ public class TicTacToeGame {
         logic1Counter=0;
         if (logic1Counter==0) {
             logic1(1, 2, 3);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(4, 5, 6);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(7, 8, 9);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(1, 4, 7);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(2, 5, 8);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(3, 6, 9);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(1, 5, 9);
-        }else if (logic1Counter==0) {
+        }if (logic1Counter==0) {
             logic1(3, 5, 7);
         }
 
@@ -140,19 +140,19 @@ public class TicTacToeGame {
             logic2Counter = 0;
             if (logic2Counter == 0) {
                 logic2(1, 2, 3);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(4, 5, 6);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(7, 8, 9);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(1, 4, 7);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(2, 5, 8);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(3, 6, 9);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(1, 5, 9);
-            } else if (logic2Counter == 0) {
+            }if (logic2Counter == 0) {
                 logic2(3, 5, 7);
             }
         }
