@@ -201,7 +201,7 @@ public class TicTacToeGame {
             }
         }
     }
-    //Method for logic1 in UC8
+    //Method for logic1 in UC8 check if I can win then play that move
     public static void logic1(int x,int y, int z){
         if (board[x]==computerPlayer || board[y]==computerPlayer || board[z]==computerPlayer){
             if (board[x]==board[y] && board[z]==' '){
@@ -216,7 +216,7 @@ public class TicTacToeGame {
             }
         }
     }
-    //Method for logic2 in UC9
+    //Method for logic2 in UC9 check if my Opponent can win then play to block it
     public static void logic2(int x,int y, int z){
         if (board[x]==player || board[y]==player || board[z]==player){
             if (board[x]==board[y] && board[z]==' '){
@@ -231,7 +231,7 @@ public class TicTacToeGame {
             }
         }
     }
-    //Method for logic3 in UC10
+    //Method for logic3 in UC10 If neither of us are winning then My first choice would be to take one of the available corners
     public static void logic3(int x){
         if (board[x]==' '){
             board[x]=computerPlayer;
